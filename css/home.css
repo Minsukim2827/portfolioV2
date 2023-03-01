@@ -1,0 +1,51 @@
+#homeContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/home-background.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 1; */
+    padding-left: 75px;
+    width: 100%;
+    height: 70%;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}
+#homeContainer > h1,
+#homeContainer > div > h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 0.7;
+}
+#homeContainer > div > button {
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-color: #33beb0;
+    color: #33beb0;
+}
+
+.slideAnimation {
+    position: relative;
+    transition: color 0.3s ease-out;
+}
+
+.slideAnimation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #33beb0;
+    transition: width 0.3s ease-out;
+    z-index: -1;
+}
+.slideAnimation:hover::before {
+    width: 100%;
+}
+.slideAnimation:hover {
+    color: white;
+}
