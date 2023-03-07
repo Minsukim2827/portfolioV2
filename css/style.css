@@ -28,3 +28,10 @@ section {
     color: gray;
     font-style: italic;
 }
+
+.section-heading {
+    font-size: 80px;
+    font-weight: 700;
+    color: #38f2ff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
