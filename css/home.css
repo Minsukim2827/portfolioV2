@@ -11,9 +11,11 @@
     overflow: hidden;
 }
 
-#about {
+#home {
     display: flex;
-    align-items: center;
+
+    flex-direction: column;
+    justify-content: space-between;
 }
 #homeContainer > h1,
 #homeContainer > div > h1 {
@@ -27,29 +29,6 @@
     font-size: 20px;
     border-color: #33beb0;
     color: #33beb0;
-}
-
-.slideAnimation {
-    position: relative;
-    transition: color 0.3s ease-out;
-}
-
-.slideAnimation::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #33beb0;
-    transition: width 0.3s ease-out;
-    z-index: -1;
-}
-.slideAnimation:hover::before {
-    width: 100%;
-}
-.slideAnimation:hover {
-    color: white;
 }
 
 .snow {

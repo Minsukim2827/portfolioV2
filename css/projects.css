@@ -1,0 +1,20 @@
+#projectsContainer {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 80vh;
+}
+
+#projectsContainer > h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 0.7;
+    color: #38f2ff;
+}

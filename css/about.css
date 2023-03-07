@@ -1,0 +1,45 @@
+#about {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+#aboutmeContainer {
+    max-width: 800px;
+}
+.aboutDescription {
+    display: inline;
+    color: rgb(220, 220, 220) !important;
+}
+
+.aboutD1 {
+    display: inline;
+    color: #38f2ff;
+}
+
+.aboutDescriptionContainer {
+    margin-top: 1rem;
+}
+.aboutDescriptionContainer > p {
+    font-size: 20px;
+}
+
+#aboutmeContainer > h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 0.7;
+    color: #38f2ff;
+}
+
+#stackContainer {
+    max-width: 500px;
+}
+
+.row {
+    gap: 20px;
+}
+
+.aboutContainer {
+    gap: 100px;
+    margin: auto;
+}
