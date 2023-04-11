@@ -54,12 +54,20 @@
     border-radius: 15%;
     background: none;
     background-color: rgba(0, 0, 0, 0.5);
-    color: #38f2ff;
-    border: none;
+    border-color: #1c6368;
+    border-width: 0.5px;
     transition: all ease-in-out 0.3s;
+}
+.carousel-button > button > a {
+    color: #38f2ff;
+    text-decoration: none;
+    font-weight: 700;
 }
 .carousel-button > button:hover {
     background-color: #38f2ff;
+    border: none;
+}
+.carousel-button > button:hover a {
     color: black;
 }
 

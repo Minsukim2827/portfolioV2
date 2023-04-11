@@ -25,23 +25,33 @@
     <body>
         <nav class="navbar position-fixed d-flex flex-column vh-100">
             <div class="navTop d-flex flex-column align-items-center">
-                <h1 class="m mb-0">M</h1>
-                <h3>Minsu</h3>
-                <h4 class="h6 mb-0">Software</h4>
-                <h4 class="h6 mb-0">Developer</h4>
+                <h1 class="m mb-0 hover-zoom">M</h1>
+                <h3 class = "hover-zoom">Minsu</h3>
+                <h4 class="h6 mb-0 ">Software</h4>
+                <h4 class="h6 mb-0 ">Developer</h4>
             </div>
             <div class="navMid d-flex flex-column">
                 <button class="" onclick="scrollToSection('#home')">Home</button>
                 <button class="" onclick="scrollToSection('#about')">About</button>
                 <button class="" onclick="scrollToSection('#projects')">Projects</button>
-                <button class="" onclick="scrollToSection('#contact')">Contact</button>
+               
             </div>
-            <div class="navBottom">Bottom</div>
+            <div class="navBottom d-flex align-items-center justify-content-center gap-2">
+              <a href="https://github.com/Minsukim2827">
+                <img class = "hover-zoom" src="icons/github-color.svg" alt="Image of github">
+              </a>
+              <a href="https://www.linkedin.com/in/minsu-kim2827/">
+                <img class = "hover-zoom" src="icons/linkedin-color.svg" alt="Image of linkedin">
+              </a>
+              <a href="https://leetcode.com/Minsukim2827/">
+                <img class = "hover-zoom" src="icons/leetcode.svg" alt="Image of leetcode">
+              </a>
+            </div>
         </nav>
 
         <main>
             <section id="home" class="vh-100">
-                <span class="bgfont">&lt;section&gt;</span>
+                <span class="bgfont text-zoom">&lt;section&gt;</span>
                 <div
                     id="homeContainer"
                     class="particle-container d-flex flex-column justify-content-center"
@@ -55,21 +65,21 @@
                     </div>
                     <h1>software developer.</h1>
                     <div class="mt-5">
-                        <button class="me-3 slideAnimation">Contact me!</button
-                        ><button class="slideAnimation">Resume</button>
+                        <button class="me-3 slideAnimation">Contact me!</button>
+                        <button class="slideAnimation"><a href="resume/Minsu_Kim-Resume.pdf">Resume</a></button>
                     </div>
                 </div>
-                <span class="bgfont">&lt;/section&gt;</span>
+                <span class="bgfont text-zoom ">&lt;/section&gt;</span>
             </section>
             <section id="about" class="vh-100">
-                <span class="bgfont">&lt;section&gt;</span>
+                <span class="bgfont text-zoom">&lt;section&gt;</span>
                 <div class="aboutContainer d-flex align-items-center ">
                 <div id="aboutmeContainer">
-                    <span class="bgfont">&lt;h1&gt;</span>
+                    <span class="bgfont text-zoom">&lt;h1&gt;</span>
                     <h1 class="section-heading">About me</h1>
-                    <span class="bgfont mb-5">&lt;/h1&gt;</span>
+                    <span class="bgfont mb-5 text-zoom">&lt;/h1&gt;</span>
                     <div class="aboutDescriptionContainer mt-0">
-                        <span class="bgfont d-block">&lt;p&gt;</span>
+                        <span class="bgfont d-block text-zoom">&lt;p&gt;</span>
                         <p class="aboutDescription">I'm a</p>
                         <p class="aboutD1">Computer Science student</p>
                         <p class="aboutDescription">
@@ -77,60 +87,60 @@
                           software to help others. Currently <p class="aboutD1">seeking </p><p class="aboutDescription">an</p>  <p class="aboutD1">internship
                           developer position.</p>
                         </p>
-                        <span class="bgfont ">&lt;/p&gt;</span>
+                        <span class="bgfont text-zoom ">&lt;/p&gt;</span>
                         </div>
                 </div>
                 <div id="stackContainer">
-                    <span class="bgfont">&lt;Stack&gt;</span>
+                    <span class="bgfont text-zoom">&lt;Stack&gt;</span>
                         <div class="row">
-                          <div class="col-md-3 mb-5">
-                            <img src="icons/htmlIcon.svg" class="img-fluid">
-                            <span class="text-center d-block h3 mt-2">HTML</span>
+                          <div class="col-md-3 mb-5 hover-zoom">
+                            <img src="icons/csharpIcon.svg" class="img-fluid">
+                            <span class="text-center d-block h3 mt-2">C#</span>
                           </div>
-                          <div class="col-md-3 mb-5">
+                          <div class="col-md-3 mb-5 hover-zoom">
                             <img src="icons/cssIcon.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">CSS</span>
                           </div>
-                          <div class="col-md-3 mb-5">
+                          <div class="col-md-3 mb-5 hover-zoom">
                             <img src="icons/javascriptIcon.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">Javascript</span>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-md-3 mb-5">
+                          <div class="col-md-3 mb-5 hover-zoom">
                             <img src="icons/sassIcon.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">Sass</span>
                           </div>
-                          <div class="col-md-3 mb-5">
-                            <img src="icons/reactIcon.svg" class="img-fluid">
-                            <span class="text-center d-block h3 mt-2">React</span>
+                          <div class="col-md-3 mb-5 hover-zoom">
+                            <img src="icons/oracleSQL.png" class="img-fluid">
+                            <span class="text-center d-block h3 mt-2">Oracle SQL</span>
                           </div>
-                          <div class="col-md-3 mb-5">
+                          <div class="col-md-3 mb-5 hover-zoom">
                             <img src="icons/photoshopIcon.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">Photoshop</span>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-md-3 mb-2">
+                          <div class="col-md-3 mb-2 hover-zoom">
                             <img src="icons/gitIcon.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">Git</span>
                           </div>
-                          <div class="col-md-3 mb-2">
+                          <div class="col-md-3 mb-2 hover-zoom">
                             <img src="icons/python.svg" class="img-fluid">
                             <span class="text-center d-block h3 mt-2">Python</span>
                           </div>
-                          <div class="col-md-3 mb-2">
-                            <img src="icons/phpIcon.svg" class="img-fluid">
-                            <span class="text-center d-block h3 mt-2">php</span>
+                          <div class="col-md-3 mb-2 hover-zoom">
+                            <img src="icons/javaIcon.png" class="img-fluid">
+                            <span class="text-center d-block h3 mt-2">Java</span>
                           </div>
                         </div>
-                        <span class="bgfont">&lt;/Stack&gt;</span>
+                        <span class="bgfont text-zoom">&lt;/Stack&gt;</span>
                       </div>
                     </div>
-                      <span class="bgfont">&lt;/section&gt;</span>
+                      <span class="bgfont text-zoom">&lt;/section&gt;</span>
             </section>
             <section id="projects" class="">
-                <span class="bgfont">&lt;section&gt;</span>
+                <span class="bgfont text-zoom">&lt;section&gt;</span>
                 <div id="projectsContainer" class="">
                     <h1 class="section-heading text-center mb-5">Projects</h1>
                 <div id="carouselContainer" class="carousel slide mt-5" data-bs-ride="false">
@@ -146,15 +156,15 @@
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Fitray Website</h5>
                           <p>Get Fit with a Personalized Plan, tailored to Your BMI</p>
-                          <div class="carousel-button"><button>View Website</button><button>Github</button></div>
+                          <div class="carousel-button"><button><a href="https://minsukim2827.github.io/Fitray-website/">View Website</a></button><button><a href="https://github.com/Minsukim2827/Fitray-website">GitHub</a></button></div>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="img/portfolioWebsite.png" class="d-block w-100" alt="...">
+                        <img src="img/discordSpotifyBot.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Portfolio Version 1</h5>
-                          <p>First iteration of a personal portfolio</p>
-                          <div class="carousel-button"><button>View Website</button><button>Github</button></div>
+                          <h5>Discord Spotify Bot</h5>
+                          <p>This Discord bot provides personalized Spotify track recommendations based on a user's input</p>
+                          <div class="carousel-button"><button><a href="https://github.com/Minsukim2827/DiscordSpotifyBot">GitHub</a></button></div>
                         </div>
                       </div>
                       <div class="carousel-item">
@@ -162,7 +172,7 @@
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Quit vaping website</h5>
                           <p>A minimalistic easy-to-read website intended to help users quit vaping</p>
-                          <div class="carousel-button"><button>View Website</button><button>Github</button></div>
+                          <div class="carousel-button"><button><a href="https://minsukim2827.github.io/quitvapingWebsite/">View Website</a></button><button><a href="https://github.com/Minsukim2827/quitvapingWebsite">GitHub</a></button></div>
                         </div>
                       </div>
                       <div class="carousel-item">
@@ -170,7 +180,7 @@
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Election results python program</h5>
                           <p>Python programme which takes the votes and names from a csv file and outputs the data as a table and graph </p>
-                          <div class="carousel-button"><button>Github</button></div>
+                          <div class="carousel-button"><button><a href="https://github.com/Minsukim2827/electionResults">GitHub</a></button></div>
                         </div>
                       </div>
                     </div>
@@ -184,10 +194,10 @@
                     </button>
                   </div>
                 </div>
-                <span class="bgfont">&lt;/section&gt;</span>
+                <span class="bgfont text-zoom">&lt;/section&gt;</span>
             </section>
         </main>
-        <footer id="contact" class="vh-100"></footer>
+        
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

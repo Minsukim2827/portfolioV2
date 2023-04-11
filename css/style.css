@@ -35,3 +35,19 @@ section {
     color: #38f2ff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+
+.hover-zoom {
+    transition: transform 0.3s;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.2);
+}
+
+.text-zoom {
+    transition: all ease-in-out 0.2s;
+}
+
+.text-zoom:hover {
+    font-size: 30px;
+}

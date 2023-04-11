@@ -24,12 +24,14 @@
     line-height: 0.7;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
-#homeContainer > div > button {
+#homeContainer > div > button,
+#homeContainer > div > button > a {
     background: none;
     padding: 10px 20px;
     font-size: 20px;
     border-color: #33beb0;
     color: #33beb0;
+    text-decoration: none;
 }
 
 .snow {
