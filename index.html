@@ -66,7 +66,15 @@
                     <h1>software developer.</h1>
                     <div class="mt-5">
                         <button class="me-3 slideAnimation">Contact me!</button>
-                        <button class="slideAnimation"><a href="resume/resume.png">Resume</a></button>
+                        <!-- <button class="slideAnimation"><a href="resume/resume.png">Resume</a></button> -->
+                        <button id="openPdfBtn">Resume</button>
+
+                        <div id="pdfModal" class="modal">
+                          <div class="modal-content">
+                            <span id="closePdfBtn" class="close">&times;</span>
+                            <embed id="pdfEmbed" type="application/pdf" width="100%" height="100%">
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <span class="bgfont text-zoom ">&lt;/section&gt;</span>
@@ -160,6 +168,15 @@
                         </div>
                       </div>
                       <div class="carousel-item">
+                        <img src="img/snapvote.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Snapvote</h5>
+                          <p>Polling website used to create polls with unique links </p>
+                          <div class="carousel-button"><button><a href="https://snapvote-11223.web.app/">View Website</a></button><button><a href="https://github.com/Minsukim2827/SnapVote">GitHub</a></button></div>
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
                         <img src="img/discordSpotifyBot.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Discord Spotify Bot</h5>
@@ -175,14 +192,7 @@
                           <div class="carousel-button"><button><a href="https://minsukim2827.github.io/quitvapingWebsite/">View Website</a></button><button><a href="https://github.com/Minsukim2827/quitvapingWebsite">GitHub</a></button></div>
                         </div>
                       </div>
-                      <div class="carousel-item">
-                        <img src="img/electonResults.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Election results python program</h5>
-                          <p>Python programme which takes the votes and names from a csv file and outputs the data as a table and graph </p>
-                          <div class="carousel-button"><button><a href="https://github.com/Minsukim2827/electionResults">GitHub</a></button></div>
-                        </div>
-                      </div>
+
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselContainer" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
